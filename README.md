@@ -22,7 +22,7 @@
 > JSON Endpoints
 ```js
 module.exports = {
-  route: '/hello,
+  route: '/hello',
   run: async (req, res) => {
     res.json({
       hello: 'world'
