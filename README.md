@@ -1,5 +1,6 @@
 # REST API TEMPLATE
-### A Simple RESTapi Template using expressjs
+
+### A Simple REST API Template using expressjs
 
 ### Features:
 > Endpoint logging in console
@@ -36,7 +37,7 @@ module.exports = {
 
 const Canvas = require("canvas")
 
-module.exports = {
+module.exports = { 
 	name: "communism",
 //communism image overlay
 	run: async(req, res) => {
@@ -59,5 +60,8 @@ module.exports = {
 	}
 }
 ```
+
+
+
 
 Made With ❤ By [Pratik](https://github.com/pratik12350)
