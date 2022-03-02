@@ -5,7 +5,7 @@
 ### Features:
 > Endpoint logging in console
 
-> all routes in seprate [route](/routes) folder
+> Routes handler
 
 > Error Handler for internal server errors, so no crash
 
