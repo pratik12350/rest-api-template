@@ -11,7 +11,7 @@
 
 > Website support with [EJS](https://ejs.co/)
 
-> Premade List Home page with list of all endpoints (Dynamic)
+> Premade small Home page with list of all endpoints (Dynamic)
 
 > Security with [helmet](https://npmjs.com/package/helmet)
 
