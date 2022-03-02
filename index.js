@@ -13,7 +13,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.set('view engine', 'ejs');
-app.set("json spaces", 1)
+app.set("json spaces", 1) //For Beautiful JSON
 
 require("./routes/index")(app) //Initializing
 
@@ -34,7 +34,7 @@ app.get('/', async (req, res) => {
 })
 
 app.get('*', (req, res) => {
-  res.send("<h1> Page Not Found! </h1>")
+  res.status(404).send("<h1> Page Not Found! </h1>")
 })
 
 app.use(errorHandler);
