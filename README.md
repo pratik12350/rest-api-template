@@ -38,7 +38,7 @@ module.exports = {
 const Canvas = require("canvas")
 
 module.exports = { 
-	name: "communism",
+	route: "/communism",
 //communism image overlay
 	run: async(req, res) => {
 	const { image } = req.query;
